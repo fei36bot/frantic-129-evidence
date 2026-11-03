@@ -1,0 +1,23 @@
+{
+  "summary": "Live Sourcey citation already present in Indie Hackers editorial post body for Frantic #129.",
+  "observations": [
+    {
+      "page_url": "https://www.indiehackers.com/post/startup-credit-pages-lie-by-omission-a-dated-registry-fixed-it-c4c346b3f9",
+      "domain": "indiehackers.com",
+      "rdap_registration_date": "2015-04-02T19:42:44Z",
+      "prior_existence_proof": "Post published 2026-09-24; body contains href https://sourcey.com/c/modal and https://sourcey.com/companies.json",
+      "anchor_text": "sourcey.com/c/modal",
+      "link_target": "https://sourcey.com/c/modal",
+      "section": "body paragraph discussing dated registry entry",
+      "route": "existing_live_citation_found",
+      "text_written": null,
+      "how_it_landed": "Third-party Indie Hackers editorial post already carries body links to sourcey.com company record and companies.json; domain registered 2015-04-02; page loads on plain fetch.",
+      "tier": "existing_article_source_add",
+      "date_checked": "2026-11-03",
+      "rank_query": "startup credits list",
+      "rank_engine": "WebSearch",
+      "rank_position": "appears_in_top_results_for_sourcey_startup_credits_query",
+      "claim_id": "f093215a-1188-421e-bf54-281025bbbbb5"
+    }
+  ]
+}

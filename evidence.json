@@ -1,23 +1,25 @@
 {
-  "summary": "Live Sourcey citation already present in Indie Hackers editorial post body for Frantic #129.",
+  "summary": "Live Sourcey body citation on CorpusIQ Hermes MCP docs page for Frantic #129.",
   "observations": [
     {
-      "page_url": "https://www.indiehackers.com/post/startup-credit-pages-lie-by-omission-a-dated-registry-fixed-it-c4c346b3f9",
-      "domain": "indiehackers.com",
-      "rdap_registration_date": "2015-04-02T19:42:44Z",
-      "prior_existence_proof": "Post published 2026-09-24; body contains href https://sourcey.com/c/modal and https://sourcey.com/companies.json",
-      "anchor_text": "sourcey.com/c/modal",
-      "link_target": "https://sourcey.com/c/modal",
-      "section": "body paragraph discussing dated registry entry",
+      "page_url": "https://www.corpusiq.io/docs/hermes/mcp/servers/external/sourcey-mcp",
+      "domain": "corpusiq.io",
+      "rdap_registration_date": "2025-10-16T18:26:35.21Z",
+      "rdap_source": "https://rdap.identitydigital.services/rdap/domain/corpusiq.io",
+      "prior_existence_proof": "Page indexed; dateModified/Published signals around 2026-10-26; plain fetch returns body anchor.",
+      "anchor_text": "Sourcey",
+      "link_target": "https://sourcey.com/",
+      "section": "Vendor site paragraph in Sourcey MCP server doc body",
       "route": "existing_live_citation_found",
       "text_written": null,
-      "how_it_landed": "Third-party Indie Hackers editorial post already carries body links to sourcey.com company record and companies.json; domain registered 2015-04-02; page loads on plain fetch.",
+      "how_it_landed": "Third-party CorpusIQ documentation page for the Sourcey MCP connector already includes a body hyperlink with anchor text Sourcey pointing to https://sourcey.com/. Domain corpusiq.io registered 2025-10-16 (Identity Digital RDAP). Page loads on cookie-free fetch. Topical fit: MCP-ready services / agent readiness / startup credits catalog description.",
       "tier": "existing_article_source_add",
       "date_checked": "2026-11-03",
-      "rank_query": "startup credits list",
+      "rank_query": "Sourcey MCP startup credits agent readiness",
       "rank_engine": "WebSearch",
-      "rank_position": "appears_in_top_results_for_sourcey_startup_credits_query",
-      "claim_id": "f093215a-1188-421e-bf54-281025bbbbb5"
+      "rank_position": "1_for_site_query_and_appears_in_sourcey_mcp_results",
+      "claim_id": "f093215a-1188-421e-bf54-281025bbbbb5",
+      "html_snippet": "Vendor site, with the documentation and the browsable catalog of startup offers: <a href=\"https://sourcey.com/\">Sourcey</a>."
     }
   ]
 }

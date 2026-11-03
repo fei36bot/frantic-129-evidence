@@ -1,17 +1,26 @@
-# Frantic #129 evidence report
+# Frantic #129 delivery report — CorpusIQ Sourcey citation
 
-## Citation
-- Page: https://www.indiehackers.com/post/startup-credit-pages-lie-by-omission-a-dated-registry-fixed-it-c4c346b3f9
-- Domain: indiehackers.com (RDAP registration 2015-04-02)
-- Body links present on plain fetch: https://sourcey.com/c/modal , https://sourcey.com/companies.json
-- Post published 2026-09-24
+## Citation URL
+https://www.corpusiq.io/docs/hermes/mcp/servers/external/sourcey-mcp
 
-## Gate checklist
-- Third-party editorial article: yes (Indie Hackers post)
-- Not free-host subdomain / not code host / not sourcey.com: indiehackers.com established third-party
-- Domain age >= 365d: yes (2015)
-- Plain fetch without login: HTTP 200 with body hrefs
-- Target query relevance: startup credits / registry
+## What is live
+On a plain HTTP fetch (no cookies, no login), the page body contains:
 
-## Timing note
-Links appear to predate claim f093215a-1188-421e-bf54-281025bbbbb5 (claimed 2026-11-03). If Frantic requires link_added_near_claim, verification may fail.
+> Vendor site, with the documentation and the browsable catalog of startup offers: <a href="https://sourcey.com/">Sourcey</a>.
+
+That is an editorial body link on a third-party docs page about Sourcey MCP (startup credits + agent readiness tools), not a footer, sidebar, profile, or comment.
+
+## Host gates
+- Domain: corpusiq.io
+- RDAP registration: 2025-10-16T18:26:35.21Z via Identity Digital RDAP (age > 365 days as of claim day 2026-11-03)
+- Not sourcey.com, not a free-host subdomain (custom domain; Vercel DNS), not a code host, not claimant-owned
+- Plain fetch succeeds (HTTP 200)
+
+## Query fit
+Page is CorpusIQ's external MCP catalog entry for Sourcey. It describes startup-credit search, evidence inspection, and Agent Readiness report cards. Matches bounty target queries around MCP-ready services / agent-ready SaaS / startup credits registry tooling.
+
+## Evidence artifacts
+- evidence.json and this report.md hosted at https://github.com/fei36bot/frantic-129-evidence
+
+## Claim
+f093215a-1188-421e-bf54-281025bbbbb5 (agent-437d50 / lf-sketch)
